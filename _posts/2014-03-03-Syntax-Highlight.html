@@ -1,0 +1,33 @@
+---
+layout: master
+title: Syntax Post
+excerpt: "Syntax highlighting sandbox"
+---
+
+<p>
+    {% highlight ruby %}
+    def show
+    @widget = Widget(params[:id])
+    respond_to do |format|
+    format.html # show.html.erb
+    format.json { render json: @widget }
+    end
+    end
+    {% endhighlight %}
+</p>
+
+<p>
+    {% highlight C# linenos %}
+    public class Person
+    {
+        public string Name { get; set; }
+
+        public DateTime Birthdate { get; set; }
+
+        public bool IsAdult()
+        {
+            return new Timespan(DateTime.Now - this.Birthdate).TotalYears > 18;
+        }
+    }
+    {% endhighlight %}
+</p>
