@@ -108,6 +108,62 @@ header ul li a {
 header ul li a:hover {
     color: white;
     transition: color 0.5s ease-out;
+    text-shadow: 0 0 15px #FFFFFF;
+}
+
+#blog-title:hover {
+    color: #FD6;
+    transition: color 0.5s ease-out;
+    text-shadow: 0 0 15px #FD6;
+}
+
+a.latest-post {
+    display: block;
+    background-color: lightgoldenrodyellow;
+    padding: 15px;
+}
+
+a.latest-post:hover {
+    background-color: #FD6;
+}
+
+a.latest-post span {
+    font-size: 20px;
+}
+
+a.latest-post span info {
+    color: orange;
+}
+
+a.latest-post:hover span info {
+    color: black;
+}
+
+a.latest-post .post-description {
+    color: #333;
+}
+
+.post {
+
+}
+
+.post-category, .post-date {
+    border-bottom: solid 3px;
+    padding: 0.8em 0.8em 0.4em 0.8em;
+    margin: 0px;
+    display: inline-block;
+    position: relative;
+}
+
+.post-category {
+    background-color: #579fcf;
+    border-bottom-color: #275da1;
+    color: white;
+}
+
+.post-date {
+    background-color: #FD6;
+    border-bottom-color: orange;
 }
 
 .inner {
@@ -362,16 +418,17 @@ dl dd {
 }
 
 footer {
-  background: transparent url('../images/hr.png') 0 0 no-repeat;
+  background: #2e7bcf url(../images/footer-bg.jpg) 0 0 repeat-x;
+  border-top: solid 1px #F72;
   margin-top: 40px;
   padding-top: 20px;
   padding-bottom: 30px;
   font-size: 13px;
-  color: #aaa;
+  color: white;
 }
 
 footer a {
-  color: #666;
+  color: #226;
 }
 footer a:hover {
   color: #444;
