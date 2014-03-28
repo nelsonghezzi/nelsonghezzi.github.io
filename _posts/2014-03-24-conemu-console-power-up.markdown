@@ -65,10 +65,12 @@ Pin ConEmu to the Windows Task Bar and start your favorite tasks from the right-
 ![ConEmu split screen](/images/conemu-jump-lists.png)
 
 ## Conclusion ##
-There's so much about ConEmu not covered in this post that makes it very superficial. It has a lot of tunning options, that lets you adapt it to better suit your taste. It pair togheter with other tools like [Clink](http://mridgers.github.io/clink/ "Clink's home page"), making it extremely adaptable, so you don't have to left anything behind for use this powerful program.
+There's so much about ConEmu not covered in this post that makes it very superficial. It has a lot of tunning options, that lets you adapt it to better suit your taste. It integrates with other tools like [Clink](http://mridgers.github.io/clink/ "Clink's home page") and [DOSBox](http://www.dosbox.com "DOSBox's home page"), making it extremely adaptable, so you don't have to left anything behind for use this powerful program.
 
 Also, many of the features described here are configurable in many different ways, so this is by no means an exhaustive guide on how to use them.
 
 The best way to get started with a tool like this, is to start using the basic things, and then move to the more advanced settings (which maybe I'll cover in another post). There're also [many questions](http://superuser.com/questions/tagged/conemu "ConEmu questions on superuser.com") about ConEmu on superuser.com, much of them answered by Maximus himself.
 
 I hope you find this post useful and give [ConEmu](https://code.google.com/p/conemu-maximus5/ "ConEmu's home page") a try! 
+
+p.d.: once you're used to ConEmu, you might try [cmder](http://bliker.github.io/cmder "cmder's home page"), which is like a customized distro of ConEmu with some additional niceties.
