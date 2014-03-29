@@ -8,4 +8,12 @@ layout: master
     </section>
     <h1><a href="{{ post.url }}">{{ page.title }}</a></h1>
     <div class="body">{{ content }}</div>
+    {% if page.tags %}
+    <section class="tags">
+        <span>Tagged in</span>
+        {% for tag in page.tags | split: ',' %}
+         <a title="Search posts tagged {{ tag }}" rel="tag" href="/blog/search.html?q={{ tag }}">{{ tag }}</a>
+        {% endfor %}
+    </section>
+    {% endif %}
 </div>

@@ -277,7 +277,7 @@ hr {
   background: transparent url('../images/hr.png') 0 0 no-repeat;
 }
 
-table {
+/*table {
   width: 100%;
   border: 1px solid #ebebeb;
 }
@@ -295,8 +295,7 @@ td {
 form {
   background: #f2f2f2;
   padding: 20px;
-  
-}
+}*/
 
 
 /* GENERAL ELEMENT TYPE STYLES */
@@ -434,6 +433,38 @@ footer a:hover {
   color: #444;
 }
 
+.tags {
+
+}
+
+.tags span {
+    margin-right: 5px;
+}
+
+.tags a {
+    padding: 3px 4px;
+    margin: 0px 2px;
+    color: white;
+    /*text-shadow: 1px 1px 0 #DBDBDB;*/
+    background-color: #579fcf;
+    text-decoration: none;
+    border-bottom: solid 1px #275da1;
+}
+
+.tags a:hover {
+    cursor: pointer;
+    background-color: #275da1;
+}
+
+header div.search-box {
+    float: right;
+    width: 300px;
+}
+
+header div.search-box form {
+    padding: 0px;
+}
+
 /* MISC */
 .clearfix:after {
   clear: both;
@@ -523,6 +554,7 @@ footer a:hover {
     font-size: 13px;
     display: inline;
   }
+
   #main-content,
   aside#sidebar {
     float: none;
