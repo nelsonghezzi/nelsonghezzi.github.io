@@ -1,6 +1,6 @@
 ---
 layout: master
-title: About | Nelson
+title: About
 ---
 
 About
