@@ -34,9 +34,9 @@
         </a>
         <h2>Personal Site</h2>
         <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="/blog">Blog</a></li>
-            <li><a href="/about">About</a></li>
+            <li {% if page.url == '/index.html' %}class="current"{% endif %}><a href="/">Home</a></li>
+            <li {% if page.url contains '/blog' %}class="current"{% endif %}><a href="/blog">Blog</a></li>
+            <li {% if page.url contains '/about' %}class="current"{% endif %}><a href="/about">About</a></li>
         </ul>
         <a href="https://github.com/nelsonghezzi" class="button">
             <small>Follow me on</small>
