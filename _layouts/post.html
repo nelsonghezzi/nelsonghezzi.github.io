@@ -1,12 +1,16 @@
 ---
 layout: master
 ---
-
+{% if page.toc %}
+<script type="text/javascript" src="/javascripts/jquery-ui-1.10.4.custom.min.js"></script>
+<script type="text/javascript" src="/javascripts/jquery.tocify.min.js"></script>
+<script type="text/javascript" src="/javascripts/post-toc.js" async="async"></script>
+{% endif %}
 <article class="post">
     <section>
         <time class="post-date" datetime="{{ page.date }}">{{ page.date | date_to_string }}</time><span class="post-category">{{ page.category }}</span>
     </section>
-    <h1><a href="{{ post.url }}">{{ page.title }}</a></h1>
+    <h1 id="post-title" class="post-title"><a href="{{ post.url }}">{{ page.title }}</a></h1>
     <div class="body">{{ content }}</div>
     {% if page.tags %}
     <section class="tags">

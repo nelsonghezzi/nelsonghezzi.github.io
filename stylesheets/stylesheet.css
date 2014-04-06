@@ -178,7 +178,7 @@ a.latest-post .post-description {
 }
 
 #main-content {
-  width: 690px;
+  width: 640px;
   float: left;
 }
 
@@ -187,7 +187,7 @@ a.latest-post .post-description {
 }
 
 aside#sidebar {
-  width: 200px;
+  width: 250px;
   padding-left: 20px;
   min-height: 504px;
   float: right;
@@ -477,6 +477,13 @@ header div.search-box form {
 .clearfix {display: inline-block;}
 * html .clearfix {height: 1%;}
 .clearfix {display: block;}
+
+.sticky {
+    position: fixed;
+    top: 20px;
+    z-index: 100;
+    border-top: 0;
+}
 
 /* #Media Queries
 ================================================== */

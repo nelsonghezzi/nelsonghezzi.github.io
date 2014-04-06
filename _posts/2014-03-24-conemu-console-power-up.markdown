@@ -4,6 +4,7 @@ title: "ConEmu: console's power up"
 category: Productivity
 tags: console ConEmu
 description: "The way you use the Windows console is about to change with this little, yet feature rich, utility program!"
+toc: true
 ---
 ## Intro ##
 Everyone has faced the need to interact with command line tools in some point of their life.
