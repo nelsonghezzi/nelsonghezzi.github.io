@@ -11,7 +11,7 @@ Everyone has faced the need to interact with command line tools in some point of
 Not all like this "low" level of interaction, or maybe are used to more polished interfaces, but in some point there is no alternative.
 On the other hand, there are the people that use them fluently to perform the most diverse kind of tasks in an automated way.
 
-I place myself in some place in the middle of both, passing most of my days apart from consoles, but not disliking when I've to get my hands on them.
+I place myself in some point in the middle of both, passing most of my days apart from consoles, but not disliking when I've to get my hands on them.
 
 For all of us, under a Windows environment, the out-of-the-box tool (cmd.exe) is pretty limited, having only the basic functions, like command history, paste, and selection (but only by column, drawing a rectangular area to copy, which includes empty spaces).
 
