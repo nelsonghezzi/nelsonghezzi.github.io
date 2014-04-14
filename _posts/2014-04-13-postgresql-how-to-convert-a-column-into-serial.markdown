@@ -12,9 +12,9 @@ relatedContent:
     url: "http://blog.jooq.org/tag/generated-as-identity"
 ---
 ## Intro ##
-I've been working with PostgreSQL recently, doing some things on the GIS ground.
+Sure you have used the `SERIAL` data type in PostgreSQL when adding a column to a table, but what about changing a column to behave in that way after the table has been created? 
 
-One thing I've to do last day was to turn a column into an _autoincremental column_ (those types of columns that gets their value automatically from some type of source, whichs feeds them with incremental integer numbers).
+I've been working with PostgreSQL recently, doing some things on the GIS ground. One thing I've to do last day was to turn a column into an _autoincremental column_ (those types of columns that gets their value automatically from some type of source, whichs feeds them with incremental integer numbers).
 
 In Postgres, like in many other database engines (Oracle, SQL Server 2012, just to mention the most populars) you've **sequence objects**, which are the ones from where you can obtain the next value to use. Sequences were standardized in the SQL:2003 standard.
 
