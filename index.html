@@ -2,26 +2,25 @@
 layout: master
 title: Weblog
 ---
-
 <h3>
-    <a name="latest-posts" class="anchor" href="#latest-posts"><span
-            class="octicon octicon-link"></span></a>Latest Posts</h3>
-
-    {% for post in site.posts %}
-      {% if forloop.index < 5 %}
-        <a class="latest-post" href="{{ post.url }}">
-            <span>
-                <info datetime="{{ page.date | date: %Y-%m-%d }}">
-                {{ post.date | date: "%b %Y" }}
-                </info>
-                <span>{{ post.title }}</span>
-            </span>
-            {% if post.description %}
-            <div class="post-description">{{ post.description | strip_html }}</div>
-            {% else %}
-            <div class="post-description">{{ post.excerpt | strip_html }}</div>
-            {% endif %}
-        </a>
-      {% endif %}
-    {% endfor %}
-
+    <a name="latest-posts" class="anchor" href="#latest-posts">
+        <span class="octicon octicon-link"></span>
+    </a>Latest Posts
+</h3>
+{% for post in site.posts %}
+  {% if forloop.index < 5 %}
+    <a class="latest-post" href="{{ post.url }}">
+        <span>
+            <info datetime="{{ page.date | date: %Y-%m-%d }}">
+            {{ post.date | date: "%b %Y" }}
+            </info>
+            <span>{{ post.title }}</span>
+        </span>
+        {% if post.description %}
+        <div class="post-description">{{ post.description }}</div>
+        {% else %}
+        <div class="post-description">{{ post.excerpt | strip_html }}</div>
+        {% endif %}
+    </a>
+  {% endif %}
+{% endfor %}
