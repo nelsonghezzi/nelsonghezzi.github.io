@@ -21,4 +21,14 @@ layout: master
         {% endfor %}
     </section>
     {% endif %}
+    {% if page.relatedContent %}
+    <section class="related-content">
+        <span>Related Content</span>
+        <ul>
+        {% for content in page.relatedContent %}
+        <li><a href="{{ content.url }}" target="_blank">{{ content.title }}</a></li>
+        {% endfor %}
+        </ul>
+    </section>
+    {% endif %}
 </article>

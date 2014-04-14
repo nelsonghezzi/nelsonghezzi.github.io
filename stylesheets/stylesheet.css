@@ -473,6 +473,16 @@ footer a:hover {
     background-color: #275da1;
 }
 
+.related-content {
+    margin-top: 15px;
+}
+
+.related-content ul {
+    padding-left: 10px;
+    margin: 0px;
+    list-style: none;
+}
+
 header div.search-box {
     float: right;
     width: 300px;
