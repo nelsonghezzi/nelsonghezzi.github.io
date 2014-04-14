@@ -614,6 +614,9 @@ header div.search-box form {
     padding-right: 0;
     margin-left: 0;
   }
+  aside#sidebar nav#toc {
+      display: none;
+  }
 }
 
 /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
